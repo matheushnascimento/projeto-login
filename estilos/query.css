@@ -20,6 +20,15 @@
 		float: right;
 		width: 70%;
 	}
+
+	div#form > h1 {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	div#form > p {
+		font-size: 0.8em;
+	}
 }
 
 @media screen and (min-width: 992px) {
@@ -34,13 +43,23 @@
 	}
 
 	section#login > div#imagem {
-		float: left;
+		float: right;
 		width: 50%;
 		height: 100%;
 	}
 
 	section#login > div#form {
-		float: right;
+		float: left;
 		width: 50%;
+	}
+
+	div#form > h1 {
+		text-align: center;
+		margin-bottom: 10px;
+		font-size: 2em;
+	}
+
+	div#form > p {
+		font-size: 1.2em;
 	}
 }
